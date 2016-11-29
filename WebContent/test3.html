@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	
+	.container{
+		margin: auto;
+		border: 1px solid #ACC3E4;
+		background-color: #EDF5FF;
+		width: 343px;
+		height: 367px;
+		border-radius: 5px;
+	}
+	.container>div{
+		margin-left: 20px;
+	}
+	
+	.login_text{
+		margin-top: 25px;
+		color: #274578;
+		font-weight: 800;
+	}
+	
+	.login_username{
+		margin-top: 18px;
+	}
+	
+	input[name="username_before"]{
+		
+		border: 1px solid #98A7BE;
+		border-radius: 3px;
+		width: 300px;
+		height: 37px;
+		font-size:15px;
+		color: #8B9096;
+	}
+	
+	input[name="username_after"]{
+		
+		position: absolute;
+		margin-left: -120px;
+		border: 1px solid #98A7BE;
+		border-left:2px solid #D5DEEC;
+		border-radius: 3px;
+		width: 117px;
+		height: 37px; 
+		background-color: #FBFBFB;
+		color: #4D4D4C;
+		font-size: 18px;
+	}
+	
+	input[name="password"]{
+		
+		border: 1px solid #98A7BE;
+		border-radius: 3px;
+		width: 303px;
+		height: 37px;
+		font-size:15px;
+		color: #8B9096;
+		margin-top: 20px;
+	}
+	
+	.login_remember{
+		margin-top: 15px;
+		width: 303px;
+		height: 37px;
+		padding: 0px;
+	}
+	
+	.remember{
+		color: #000054;
+		font-size: 13px;
+	}
+	
+	.forget{
+		
+		position: absolute;
+		margin-left: 237px;
+		margin-top: -23px;
+	}
+	
+	input[type="button"]{
+		background-color: #67A00D;
+		width: 83px;
+		height: 31px;
+		border:1px solid #54850A;
+		font-size:16px;
+		color:#FFFFFF;
+		font-weight:600;
+		margin-top:20px;
+		border-radius:2px;
+	}
+	
+	.login_notice{
+		
+		font-size: 13px;
+		color: #98869B;
+		margin-top: 20px;
+	
+	}
+	
+	.notice_2{
+		
+		margin-top: 10px;
+	
+	}
+	
+	.test{
+		color: #5850CA;
+	}
+	
+</style>
+
+</head>
+<body>
+	
+	<div class="container" >
+		
+		<div class="login_text">登录QQ邮箱</div>
+		<div class="login_username">
+			<input type="text" name="username_before" value="邮箱账号或QQ号码" />
+			<input type="text" name="username_after" value="@qq.com" />
+		</div>
+		<div class="login_password">
+			<input type="password" name="password" />
+		</div>
+		<div class="login_remember">
+			<div class="remember">
+				<input type="checkbox" name="remember">记住登录状态
+			</div>
+			<div class="forget">忘记密码?</div>
+		</div>
+		<div class="login_btn">
+			<input type="button" value="登录" />
+		</div>
+		<div class="login_notice">
+			<div class="notice_1">
+				<span>还有没有QQ邮箱?</span>
+				<span class="test">立即注册</span>
+			</div>
+			<div class="notice_2">
+				<span>网速太慢?</span>
+				<span class="test">基础版</span>
+			</div>
+		</div>
+		
+	</div>
+	
+		
+</body>
+</html>
